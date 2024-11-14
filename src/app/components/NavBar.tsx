@@ -10,14 +10,14 @@ function NavBar() {
           />
         </div>
         <nav className="justify-center flex gap-16">
-          <ul className="items-center flex text-gray6 font-normal md:flex-row gap-16 hover:cursor-pointer list-item:h-12">
+          <ul className="items-center flex text-gray6 font-dmsansregular md:flex-row gap-16 hover:cursor-pointer list-item:h-12">
             <li className="hover:text-brandGreenHover">Início</li>
             <li className="hover:text-brandGreenHover">Sobre nós</li>
             <li className="hover:text-brandGreenHover">Serviços</li>
             <li className="hover:text-brandGreenHover">Projetos</li>
             <li className="hover:text-brandGreenHover">Blog</li>
           </ul>
-          <button className="w-40 h-12 rounded-lg bg-gray6 hover:bg-brandGreenHover">
+          <button className="w-40 h-12 font-dmsansregular rounded-lg bg-gray6 hover:bg-brandGreenHover">
             Fale conosco
           </button>
         </nav>

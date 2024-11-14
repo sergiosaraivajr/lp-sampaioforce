@@ -8,6 +8,11 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        dmsansregular: ["DmSansRegular", "sans-serif"],
+        dmsansbold: ["DmSansBold", "sans-serif"],
+      },
+
       colors: {
         brandGreenLight: "#AAD813",
         brandGreenHover: "#97c00d",
